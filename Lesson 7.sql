@@ -1,3 +1,5 @@
+-- Ссылка на создание БД: https://github.com/NelliEfr/hr_data/blob/master/script.sql
+
 -- Агрегатные функции
 
 -- SUM: вычисляет сумму значений
