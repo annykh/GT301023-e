@@ -1,3 +1,12 @@
+ create table employees(
+ 	employee_id int primary key auto_increment,
+ 	first_name varchar(128) not null,
+ 	last_name varchar(128) not null,
+ 	email varchar(128) not null,
+ 	salary int, 
+	department varchar(128) not null
+ );
+
 insert into employees(first_name, last_name, email, salary, department) values("Steven","King",	"SKING", 24000, "Sales");
 insert into employees(first_name, last_name, email, salary, department) values("Neena" , "Kochhar" , "NKOCHHAR" , 17000 , "Sales");
 insert into employees(first_name, last_name, email, salary, department) values("Lex" , "De Haan" , "LDEHAAN" , 17000 , "Sales");
